@@ -1,0 +1,26 @@
+class Transaction
+{
+    private void Buy(String stock, int quantity, float price)
+    {
+        Buy.execute(stock, quantity, price);
+    }
+    
+    private void Sell(String stock, int quantity, float price)
+    {
+        Sell.execute(stock, quantity, price);
+    }
+}
+class Buy
+{   
+    static void execute(String ticker, int quantity, float price)
+    { 
+        //Execute buy action
+    }
+}
+class Sell
+{
+    static void execute(String ticker, int quantity, float price)
+    {
+        // Execute sell action 
+    }
+}
