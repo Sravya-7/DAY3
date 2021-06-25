@@ -1,0 +1,21 @@
+class Rectangle
+{
+	void setWidth(double w)
+	void setHeight(double h)
+	double getHeight()
+	double getWidth()
+}
+class Square
+{
+	void setWidth(double w)
+	void setHeight(double h)//making w and h equal
+	double getHeight()
+	double getWidth()
+}
+
+void test(Rectangle r)
+{
+	r.setWidth(5);
+	r.setHeight(4);
+	assertEquals(5*4,r.getWidth()*r.getHeight());
+}
