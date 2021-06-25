@@ -1,0 +1,20 @@
+Animal
+	void feed();
+	void groom();
+Dog extends Animal
+	void feed();
+	void groom();
+Tiger extends Animal
+	void feed();
+	void groom();
+
+Animal
+	void feed();
+	void groom();
+Pet extends Animal
+	void groom();
+Dog extends Animal
+	void feed();
+	void groom();
+Tiger extends Animal
+	void feed();
