@@ -1,0 +1,12 @@
+interface Reader
+	char read();
+interface Writer
+	char write(char ch);
+void copy(Reader r,Writer w)
+{
+	char ch;
+	while((ch=r.read())!=EOF)
+	{
+		w.write(ch);
+	}
+}
